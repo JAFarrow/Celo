@@ -1,0 +1,52 @@
+[
+  {
+    "email": "banana@gmail.com",
+    "transactions": [
+      {
+        "sender": "enzo@example.com",
+        "recipient": "user2@example.com",
+        "amount": 100,
+        "timestamp": "2024-05-23T10:30:00"
+      },
+      {
+        "sender": "enzo@example.com",
+        "recipient": "user1@example.com",
+        "amount": 150,
+        "timestamp": "2024-05-22T15:45:00"
+      },
+      {
+        "sender": "enzo@example.com",
+        "recipient": "user3@example.com",
+        "amount": 75,
+        "timestamp": "2024-05-21T09:00:00"
+      }
+    ]
+  },
+  {
+    "email": "f@gmail.com",
+    "transactions": []
+  },
+  {
+    "email": "dzidzai@gmail.com",
+    "transactions": [
+      {
+        "sender": "dzidzai@example.com",
+        "recipient": "user2@example.com",
+        "amount": 100,
+        "timestamp": "2024-05-23T10:30:00"
+      },
+      {
+        "sender": "dzidzai@example.com",
+        "recipient": "user1@example.com",
+        "amount": 150,
+        "timestamp": "2024-05-22T15:45:00"
+      },
+      {
+        "sender": "dzidzai@example.com",
+        "recipient": "user3@example.com",
+        "amount": 75,
+        "timestamp": "2024-05-21T09:00:00"
+      }
+    ]
+  }
+]

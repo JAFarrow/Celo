@@ -1,0 +1,244 @@
+/*styles.css
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #007bff;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Forms and Buttons */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Layout and Spacing */
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.dashboard-content form {
+  margin-right: 20px;
+}
+
+.dashboard-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dashboard-links a,
+.dashboard-links button {
+  margin: 0 10px;
+}
+
+/* HomeScreen Styles */
+.home-screen {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.home-screen h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.home-screen p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.home-screen ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.home-screen li {
+  margin: 0 10px;
+}
+
+.home-screen a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.home-screen a:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+/* LoginScreen Styles */
+.login-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Set the height to 100% of the viewport height */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  margin-bottom: 10px;
+}
+
+.register-link {
+  margin-top: 20px;
+}
+
+/* DashboardScreen Styles */
+.dashboard-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column; /* Change from row to column */
+  align-items: center; /* Add this line */
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h2 {
+  margin: 0;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.dashboard-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.dashboard-links a,
+.dashboard-links button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.dashboard-links a:hover,
+.dashboard-links button:hover {
+  background-color: #0056b3;
+}
