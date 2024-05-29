@@ -1,5 +1,8 @@
 /*styles.css
 /* General Styles */
+:root {
+  --main-color: #007bff;
+}
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -36,6 +39,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#headerNav a {
+  width: 52px;
+  height: 28px;
+  margin-left: 12px;
+  padding: 8px;
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 6px;
 }
 
 nav ul {
